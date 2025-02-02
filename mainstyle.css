@@ -1,0 +1,492 @@
+@import url('https://fonts.googleapis.com/css2?family=Athiti:wght@200;300;400;500;600;700&display=swap');
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.noto-sans-thai-<uniquifier> {
+  font-family: "Noto Sans Thai", serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+    font-family: "Athiti", serif;
+  font-weight: 200;
+  font-style: normal;
+}
+* a{
+    text-decoration: none;
+}
+
+* li{
+    list-style: none;
+}
+.container{
+    position: relative;
+    min-height: 100vh;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+
+}
+.bg::after{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.menu  {
+    position: relative;
+    width: 85%;
+    height: 15vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+.logo a{
+    font-size: 2rem;
+    color: black;
+    
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    padding: 0 17px;
+}
+.menu ul li a{
+    font-weight: normal;
+    color: black;
+    font: size 30px;
+    position: absolute;
+    top: 50%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+}
+
+/*content*/
+
+
+
+
+.สภา{
+    position: absolute;
+    left: 15%;
+    top: 45%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    
+}
+.สภา a{
+    color: #ee772f;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.school{
+    position: absolute;
+    left: 26.1%;
+    top: 83%;
+    transform: translate(-50%,-50%);
+    display: flex;
+}
+
+.school a{
+    color: black;
+    font-size: 45px;
+    font-weight: 300;
+
+}
+
+.button{
+    padding: 20px 50px;
+    font-size: 30px;
+    cursor: pointer;
+    border: 0px;
+    background: transparent;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}  
+
+
+
+  .orange-bar {
+    background-color: #ee772f; /* สีส้ม */
+    height: 80px; /* ความสูงของแถบ */
+    width: 100%; /* ความกว้างเต็มหน้าจอ */
+    position: absolute;
+    top: 50%; ;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+}
+
+.img1{
+    width: 250px;
+    position: absolute;
+    top: 34.8%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+.img2{
+    width: 280px;
+    position: absolute;
+    top: 26.8%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    z-index: 1;
+}
+.img3{
+    width: 250px;
+    position: absolute;
+    top: 36.8%;
+    left: 80%;
+    transform: translate(-50%,-50%);
+}
+.logoสภา{
+    width: 180px;
+    position: absolute;
+    left: 0.5%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+}
+
+
+.btn{
+    position: absolute;
+    top: 50px;
+    left: 1400px;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    outline: none;
+    border:none;
+    font-size: 25px;
+    z-index: 1;   
+  }
+  
+.btn:hover::after {
+          width: 100%;
+      }
+.btn::after {
+          content: '';
+          position: absolute;
+          border-radius: inherit;
+          width: 20%;
+          height: 2.5px;
+          background: orange;
+          left: 0px;
+          bottom: -2.5px;
+          z-index: -1;
+          transition: all .25s ease;
+          left: 50%;
+          transform: translate(-50%);
+}
+
+
+/*.btn-1{
+    position: absolute;
+    top: 50px;
+    left: 1500px;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    outline: none;
+    border:none;
+    font-size: 25px;
+    z-index: 1;  
+  }
+  
+  
+  
+.btn--1:hover {
+          color: #fff;
+      }
+.btn-1:hover::after {
+          transform: scale(1);
+          opacity: 1;
+      }
+.btn-1::after {
+          content: '';
+          width: 100%;
+          height: 100%;
+          border-radius: 30px;
+          position: absolute;
+          top: 0px;
+          left: 0px;
+          transform: scale(.1);
+          background: orange;
+          z-index: -1;
+          opacity: 0;
+          transition: all .25s ease;
+      }*/
+
+.Abs{
+    position: absolute;
+    top: 50px;
+    left: 1642.5px;
+    transform: translate(-50%,-50%);
+    background: transparent;
+    outline: none;
+    border:none;
+    font-size: 25px;
+    z-index: 1;
+    color: black;
+}
+
+.Abs:hover {
+    color: #fff;
+}
+.Abs:hover::after {
+    transform: scale(1);
+    opacity: 1;
+}
+.Abs::after {
+    content: '';
+    width: 125%;
+    height: 100%;
+    border-radius: 19px;
+    position: absolute;
+    top: 0px;
+    left: -10px;
+    transform: scale(.1);
+    background: orange;
+    z-index: -1;
+    opacity: 0;
+    transition: all .25s ease;
+}
+
+.FacebookLogo{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 300px;
+    left: 150px;
+    width: 100px;
+}
+
+.face{
+    
+    position: absolute;
+    top: 300px;
+    left: 250px;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+    
+    
+}
+
+.click{
+    background-color: transparent;
+    outline: transparent;
+    border: transparent;
+    font-size: 15;
+    position: absolute;
+    top: 330px;
+    left: 230px;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+}
+.slideshow{
+    position: absolute; 
+    bottom: 550px;
+    max-width: 1000px;
+    max-height: 200px;
+    margin: 0 auto;
+    margin-top: 100px;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+
+}
+
+
+.item{
+    max-width: 1000px;
+    max-height: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.item img{
+    width: 1000px;
+    height: 200px;
+    object-fit: cover;
+
+}
+
+.slideshow .slick-prev{
+    position: absolute;
+    top: 80px;
+    left: 20px;
+    z-index: 10;
+}
+.slideshow .slick-next{
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    z-index: 10;
+}
+.slideshow .slick-arrow{
+    z-index: 10px;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: none;
+    outline: none;
+}
+.slideshow .slick-dots{
+    position: absolute;
+    bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+}
+.slideshow .slick-dots li{
+    list-style: none;
+    margin: 0 2px;
+    width: 10px;
+    height: 10px;
+    background: white;
+    border-radius: 50%;
+    opacity: 100%;
+
+}
+.slideshow .slick-active{
+    background: rgb(184, 184, 184) !important;
+}
+
+.bar {
+    background-color: #ffc8a5; /* สีส้ม */
+    height: 200px; /* ความสูงของแถบ */
+    width: 100%; /* ความกว้างเต็มหน้าจอ */
+    position: absolute;
+    top: 66%; ;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+.bar img{
+    width: 800px;
+    position: absolute;
+    height: 200px;
+    left: 1200px;
+    object-fit: cover;
+}
+.map{
+    position: absolute;
+    top: 1400px;
+}
+
+.bar1{
+    background-color: #ee772f; /* สีส้ม */
+    height: 200px; /* ความสูงของแถบ */
+    width: 100%; /* ความกว้างเต็มหน้าจอ */
+    position: absolute;
+    top: 1800px; 
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+.bar img{
+    position: absolute;
+    width: 10%;
+}
+
+.t1{
+    position: absolute;
+    top: 20px;
+    left: ;
+    font-size: 50px;
+    border: none;
+    background: transparent;
+    font-weight: 500;
+    
+}
+
+.t2{
+    position: absolute;
+    top: 80px;
+    left: ;
+    font-size: 40px;
+    border: none;
+    background: transparent;
+    font-weight: 500;
+    
+}
+
+.slider {
+    position: absolute;
+    top: 790px;
+    width: 100%;
+    height: 250px; /* ปรับขนาดให้เหมาะสม */
+    display: flex;
+    align-items: center;
+    overflow: hidden; /* ซ่อนภาพที่อยู่นอกขอบ */
+    background: #f4f4f4; /* ป้องกันแบ็คกราวด์เป็นช่องว่าง */
+}
+
+.slide-track {
+    display: flex;
+    width: calc(250px * 12); /* ปรับขนาดตามจำนวนภาพ */
+    animation: scroll 20s linear infinite;
+}
+.slide-track:hover{
+    animation-play-state: paused;
+}
+
+.slide {
+    width: 250px; /* ปรับขนาดให้ภาพไม่ถูกตัด */
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.slide img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* ทำให้รูปเต็มโดยไม่บิดเบี้ยว */
+    border-radius: 10px; /* เพิ่มมุมโค้ง */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.slide img:hover {
+    transform: scale(1.1); /* ขยายภาพเล็กน้อยเมื่อ hover */
+}
+
+/* Animation สำหรับการเลื่อน */
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(calc(-250px * 6)); /* ปรับให้เลื่อนได้เนียน */
+    }
+}
+
+
+/*@media screen and (max-width: 480px) {
